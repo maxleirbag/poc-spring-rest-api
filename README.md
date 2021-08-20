@@ -1,24 +1,26 @@
 # spring-rest-api
 Prova de conceito de aplicação destinada a receber Solicitações de Entrega, usando REST API e ecossistema Spring.
 
-## Clientes (CRUD)
-Métodos REST:
+## Clientes (CRUD), Métodos REST:
 
-GET
+### GET
 
 Listar todos = /clientes
 Buscar nome exato = /nome/nome_exato
 Buscar nome parecido = /parecido/nome_parecido
 Buscar id = /id/id_desejado
-POST
+
+### POST
 
 Adicionar (JSON) = /clientes
 (Strings = "nome"(60),"email"(i@i.algo, 255),"telefone"(20))
-PUT
+
+### PUT
 
 Atualizar (JSON) = /clientes/id_desejado
 (Strings = "nome"(60),"email"(255),"telefone"(20))
-DELETE
+
+### DELETE
 
 Deletar = /clientes/id_alvo
 
